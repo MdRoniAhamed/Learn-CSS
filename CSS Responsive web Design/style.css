@@ -1,0 +1,63 @@
+
+:root {
+    --primary: #fdcb6e;
+    --sec: #dfe6e9;
+    --darkColor: #00b894;
+    --whiteColor: #fff;
+    --defaultWidth: 90%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--sec);
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_area {
+    width: var(--defaultWidth);
+    margin: 20px auto;
+    background-color: var(--primary);
+    padding: 10px;
+    overflow: hidden;
+}
+
+.main{
+}
+
+.child{
+    background: var(--darkColor);
+    padding: 20px;
+    color: var(--whiteColor);
+    flex-basis: 28%;
+}
+
+.child a {
+    background: var(--primary);
+    color: var(--darkColor);
+    display: inline-block;
+    transition: 0.5s;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.child a:hover {
+    background: var(--sec);
+    color: var(--primary);
+}
+
+@media all and (orientation:landscape) and (min-width:300px) and (max-width:500px){
+    body .child{
+        color: red;
+    }
+}
+@media all and (orientation:portrait) and (min-width:300px) and (max-width:400px){
+    body .child{
+        color: red;
+    }
+}

@@ -1,0 +1,14 @@
+:root{
+    --primary: black;
+    --sec:white;
+    --colorDark:yellow;
+    --width1:400px;
+    --height:400px;
+}
+
+.div1{
+    background-color: var(--primary);
+    color: var(--colorDark);
+    width: var(--width1);
+    height: var(--height);
+}

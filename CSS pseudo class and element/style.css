@@ -1,0 +1,31 @@
+a:hover{
+    color: red;
+}
+
+li:first-child{
+    color: red;
+}
+li:nth-child(){
+    color: aqua;
+}
+
+body{
+    background-color: aquamarine;
+    background-image: url(bg.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body::before{
+    content:' Element';
+    background-image: url(bg.jpg);
+    background-size: 100px 100px;
+    
+}
+body::after{
+    content:' Element';
+    background-image: url(bg.jpg);
+    background-size: 100px 100px;
+
+}

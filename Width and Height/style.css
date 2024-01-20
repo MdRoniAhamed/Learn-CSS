@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding:0;
+}
+html{
+    height: 100%;
+}
+
+body{
+    height: inherit;
+}
+
+.parent{
+    background-color: blueviolet;
+    color: black;
+    margin:20px auto;
+    width: 92%;
+    padding: 2%;
+    max-width: 1140px;
+    min-width: 600px;
+    height: 50%;
+}

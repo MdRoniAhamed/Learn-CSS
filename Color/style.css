@@ -1,0 +1,17 @@
+body{
+    background:url(https://images.pexels.com/photos/19780240/pexels-photo-19780240/free-photo-of-a-forest-with-trees-and-fog-in-the-background.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-attachment:fixed;
+}
+
+div{
+    background-color:rgba(165, 42, 42, 0.4);
+    background-image: url(https://cdn.iconscout.com/icon/free/png-256/free-css-38-226095.png);
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:scroll;
+
+    /* Shorthand */
+    background: rgba(165, 42, 42, 0.4) url(https://cdn.iconscout.com/icon/free/png-256/free-css-38-226095.png) center no-repeat;
+
+}

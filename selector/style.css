@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+div{
+    background:aqua;
+    width: 200px;
+    height: 200px;
+    margin-bottom:20px;
+}
+
+div p{
+    color:black
+}
+
+.text_bk{
+    color:red;
+    text-align: center;
+    background-color: aqua;
+    margin: 20px;
+}
+
+.first_div{
+background: blue;
+}
+
+.first_div p{
+    color: white;
+}
+
+.first_div p{
+    color: black;
+}
+
+.first_div{
+    margin: 20;
+}
+
+#big_div, #big_div2, .first_div{
+    width: 400px;
+}

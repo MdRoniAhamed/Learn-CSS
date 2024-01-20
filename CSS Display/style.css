@@ -1,0 +1,15 @@
+h1{
+    background-color: red;
+    /* display: inline; */
+}
+
+span{
+    background-color: aqua;
+}
+
+a.btn{
+    padding: 10px 15px;
+    background-color: violet;
+    color: white;
+    display: inline-block;
+}

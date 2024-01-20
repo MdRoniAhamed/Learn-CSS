@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.parent{
+    background-color: blueviolet;
+    /* height: 300px; */
+    width: 300px;
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-left: 50px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin: 20px auto;
+}
+/* 
+.child{
+    background-color: aqua;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 20px ;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+} */
+
+.child{
+    background-color: aqua;
+    margin: 25px 30px;
+    padding: 10px 20px;
+}

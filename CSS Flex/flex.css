@@ -1,0 +1,22 @@
+.position{
+    background-color: #a29bfe;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.item{
+    background-color: #ffeaa7;
+    flex-basis: 100px;
+    height: 100px;
+    margin-right: 1%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.item:nth-child(5)
+{
+    order: -1;
+}

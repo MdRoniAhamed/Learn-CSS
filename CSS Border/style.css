@@ -1,0 +1,15 @@
+h1{
+    /* border-style: groove; */
+    /* border-width: 20px; */
+    border-color:aquamarine;
+    
+    /* shorthand */
+    /* border: 5px solid red ; */
+    border-radius: 5px;
+    border-left: 5px groove aqua;
+    border-right: 5px solid red;
+    border-top:6px solid gray;
+    border-bottom: 5px solid green;
+    
+}
+

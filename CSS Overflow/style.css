@@ -1,0 +1,9 @@
+
+div{
+    background-color: #353b48;
+    color: cadetblue;
+    padding: 20px 5%;
+    width: 90%;
+    height: 200px;
+    overflow: auto;
+}

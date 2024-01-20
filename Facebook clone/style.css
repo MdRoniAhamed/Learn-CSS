@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #1c1e21;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/* Body Area Style */
+
+#body_area{
+    background-color: #F0F2F5;
+}
+
+.container{
+    width: 980px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#content_area{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 72px 0 112px;
+    align-items: center;
+}
+
+.left_side{
+    flex-basis: 540px;
+}
+
+.left_side img{
+    width: 300px;
+}
+
+.left_side h2{
+    color: #1c1e21;
+    font-size: 28px;
+    font-weight: normal;
+    padding-left: 29px;
+}
+
+.form_area{
+    flex-basis: 392px;
+    text-align: center;
+}
+
+.form_area form{
+    background-color: #fff;
+    box-shadow: 0 0 10px #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.form_area input{
+    width: 100%;
+    display: block;
+    border: 1px solid #ddd;
+    padding: 14px 26px;
+    border-radius: 6px;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.form_area input[type="button"]{
+    background-color: #1877f2;
+    border: 1px solid #1877f2;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form_area a{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.form_area a:hover{
+    text-decoration: underline;
+}
+
+.form_area button[type="button"]{
+    background-color: #36A420;
+    border: 1px solid #36A420;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding: 16px;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+.form_area p{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #1c1e21;
+
+}
+
+.form_area p a{
+    color: #1c1e21;
+}
+
+
+@media screen and (max-width:500px){
+    .container{
+        width: 96%;
+    }        
+    #content_area {
+        flex-direction: column;
+        padding: 35px 0;
+      }
+    .left_side{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .left_side h2{
+        font-size: 25px;
+        padding-left:0;
+        margin-bottom: 40px;
+    }
+    
+    .form_area{
+        flex-basis: 100%;
+        text-align: center;
+    }
+}

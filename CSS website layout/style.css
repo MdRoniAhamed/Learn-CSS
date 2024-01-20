@@ -1,0 +1,142 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+#header_area img{
+    width: 200px;
+    height: 50px;
+}
+
+#header_area{
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Main Menu Style */
+
+#main_menu{
+    padding: 10px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+#main_menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#main_menu ul li{
+    display: inline-block;
+    margin: 0 8px;
+}
+
+#main_menu ul li a{
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#main_menu ul li a:hover{
+    color: #6CA2C3;
+}
+
+/* Content */
+
+#content{
+    width: 1140px;
+    margin: 10px auto;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+#main_content{
+    width: 70%;
+    padding: 10px 2%;
+    border-right: 1px solid #ddd;
+    float: left;
+    display: inline-block;
+}
+
+.child_content{
+    padding: 10px 1%;
+    width: 30%;
+    float: left;
+    margin-right: 1%;
+    height: 220px;
+
+}
+
+.child_content:first-child{
+    width: 63%;
+}
+
+.child_content:first-child img{
+    display: block;
+    float: right;
+    width: 250px;
+    margin-left: 15px;
+}
+
+.child_content img{
+    display: none;
+    width: 100%;
+}
+
+.child_content h2 {
+    margin: 0 0 5px;
+    font-size: 18px;
+}
+
+.child_content h2 a{
+    color: #000;
+    text-decoration: none;
+}
+
+.child_content p{
+
+}
+
+/* Sidebar Style */
+
+#main_sidebar {
+    width: 21%;
+    padding: 10px 2%;
+    float: right;
+}
+
+.child_sidebar img{
+    width: 100%;
+}
+
+.child_sidebar{
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.child_sidebar:last-child{
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.child_sidebar h3 {
+    margin: 0 0 5px;
+    font-size: 18px;
+}
+
+.child_sidebar h3 a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* Footer Area */
+#footer_area{
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}

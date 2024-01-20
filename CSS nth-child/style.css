@@ -1,0 +1,78 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.parent{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.child{
+    background-color: #b33939;
+    width: 50px;
+    padding-top: 10px;
+    height: 38px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+}
+
+.child p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* nth-child */
+
+/* .child:first-child{
+    background-color: #474787;
+}
+
+.child:last-child{
+    background-color: #474787;
+}
+
+.child:nth-child(1){
+    background-color: red;
+} */
+
+.child:nth-child(odd){
+    background-color:red;
+}
+
+/* Form Style */
+
+form{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+input[type=text]{
+    border: 1px solid #ddd;
+    padding: 15px 25px;
+    color: #000;
+    font-size: 15px;
+    border-radius: 5px;
+    float: left;
+
+}
+input[type=button]{
+    background-color: #227093;
+    border: 1px solid #ddd;
+    padding: 15px 25px;
+    color: #ddd;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+    display: none;
+    
+    transition: 3.7s;
+}
+
+input:not(:placeholder-shown) + input[type='button']{
+    display: block;
+}

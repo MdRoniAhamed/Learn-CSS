@@ -1,0 +1,33 @@
+table,
+th,
+td {
+    border: 1px solid tomato;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+
+table{
+    width: 100%;
+}
+th{
+    background: tomato;
+    height: 50px;
+    text-align: left;
+}
+
+td{
+    background: blueviolet;
+    border: 1px solid slategray;
+}
+
+tr:hover th,
+tr:hover td{
+    background-color: aquamarine;
+}
+
+.tab{
+    width: 450px;
+    overflow: scroll;
+    overflow-x: scroll;
+}
+
